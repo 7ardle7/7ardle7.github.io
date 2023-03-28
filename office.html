@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e618823c483c687a4060810b95925572 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e618823c483c687a4060810b95925572" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e618823c483c687a4060810b95925572 = L.map(
+                "map_e618823c483c687a4060810b95925572",
+                {
+                    center: [21.146633, 79.08886],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4.8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bb2d114f5303d41199276bbe74abd699 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca target=\"_blank\" href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e618823c483c687a4060810b95925572);
+        
+    
+            var marker_f1884fbd8e109db6835007309aaff1bf = L.marker(
+                [12.9365109, 77.6932987],
+                {}
+            ).addTo(map_e618823c483c687a4060810b95925572);
+        
+    
+            var icon_b1192a4e75f5f732c2c2c75eb2b3a12b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_f1884fbd8e109db6835007309aaff1bf.setIcon(icon_b1192a4e75f5f732c2c2c75eb2b3a12b);
+        
+    
+        var popup_6ebcd34e269c24f80a53df7d599d2e4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24345c43367c65e8cd94e13f0be0ba9e = $(`<div id="html_24345c43367c65e8cd94e13f0be0ba9e" style="width: 100.0%; height: 100.0%;">Cisco, Bangalore</div>`)[0];
+                popup_6ebcd34e269c24f80a53df7d599d2e4a.setContent(html_24345c43367c65e8cd94e13f0be0ba9e);
+            
+        
+
+        marker_f1884fbd8e109db6835007309aaff1bf.bindPopup(popup_6ebcd34e269c24f80a53df7d599d2e4a)
+        ;
+
+        
+    
+    
+            var marker_b451d46cc6a5931f7583e42977130997 = L.marker(
+                [12.837096617091534, 77.6600313690642],
+                {}
+            ).addTo(map_e618823c483c687a4060810b95925572);
+        
+    
+            var icon_14fc5c46fcca67502d7a192ab669953c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_b451d46cc6a5931f7583e42977130997.setIcon(icon_14fc5c46fcca67502d7a192ab669953c);
+        
+    
+        var popup_7e2cf97facff2ec53230025dfc816fef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95fb31527d98da28f9a03d3971058ae3 = $(`<div id="html_95fb31527d98da28f9a03d3971058ae3" style="width: 100.0%; height: 100.0%;">Wipro, Bangalore</div>`)[0];
+                popup_7e2cf97facff2ec53230025dfc816fef.setContent(html_95fb31527d98da28f9a03d3971058ae3);
+            
+        
+
+        marker_b451d46cc6a5931f7583e42977130997.bindPopup(popup_7e2cf97facff2ec53230025dfc816fef)
+        ;
+
+        
+    
+    
+            var marker_4e4115a57e84e76459b89a69f10be428 = L.marker(
+                [28.483907737651094, 77.53257247599112],
+                {}
+            ).addTo(map_e618823c483c687a4060810b95925572);
+        
+    
+            var icon_a3a5de617084bf98575ddc196ebe6a5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_4e4115a57e84e76459b89a69f10be428.setIcon(icon_a3a5de617084bf98575ddc196ebe6a5b);
+        
+    
+        var popup_d056ce87998a9fd3a8429ffafbb7eff0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24a240cfaa23a238b5a8051d613f4ad9 = $(`<div id="html_24a240cfaa23a238b5a8051d613f4ad9" style="width: 100.0%; height: 100.0%;">Wipro, Greater Noida</div>`)[0];
+                popup_d056ce87998a9fd3a8429ffafbb7eff0.setContent(html_24a240cfaa23a238b5a8051d613f4ad9);
+            
+        
+
+        marker_4e4115a57e84e76459b89a69f10be428.bindPopup(popup_d056ce87998a9fd3a8429ffafbb7eff0)
+        ;
+
+        
+    
+    
+            var marker_92b81e40acef22c5ad327d62130215b2 = L.marker(
+                [28.42679374921971, 77.03122278499853],
+                {}
+            ).addTo(map_e618823c483c687a4060810b95925572);
+        
+    
+            var icon_30b3e29a4b190bcd2e07a09c692c4820 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-building", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_92b81e40acef22c5ad327d62130215b2.setIcon(icon_30b3e29a4b190bcd2e07a09c692c4820);
+        
+    
+        var popup_44a89a0c24de8acf8e93eb50bcea9779 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d368e18789844f2b6c2472a3601a19a = $(`<div id="html_8d368e18789844f2b6c2472a3601a19a" style="width: 100.0%; height: 100.0%;">Cognizant, Gurgaon</div>`)[0];
+                popup_44a89a0c24de8acf8e93eb50bcea9779.setContent(html_8d368e18789844f2b6c2472a3601a19a);
+            
+        
+
+        marker_92b81e40acef22c5ad327d62130215b2.bindPopup(popup_44a89a0c24de8acf8e93eb50bcea9779)
+        ;
+
+        
+    
+</script>
+</html>
